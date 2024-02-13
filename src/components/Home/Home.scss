@@ -1,0 +1,61 @@
+.banner__container {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+
+  width: 100%;
+  height: 100%;
+
+  .banner__contents {
+    width: 100%;
+
+    h3 {
+      font-size: 1.2rem;
+    }
+    h2 {
+      font-size: 4rem;
+      color: var(--title-color);
+
+      width: 70%;
+
+      span {
+        color: var(--first-color);
+      }
+    }
+    p {
+      font-size: 13px;
+      width: 90%;
+      margin-bottom: 2rem;
+    }
+    button {
+      width: 160px;
+      padding: 1rem 1.5rem;
+      font-family: "Poppins", sans-serif;
+      font-size: var(--smaller-font-size);
+      font-weight: var(--font-semi-bold);
+      color: var(--first-color-lighter);
+      background: linear-gradient(to right, var(--first-color) 50%, #fff 50%);
+      background-size: 200% 100%;
+      background-position: right bottom;
+      transition: all 0.5s ease-out;
+      border: none;
+      border-radius: 5px;
+      box-shadow: 0 14px 26px rgba(0, 0, 0, 0.04);
+      cursor: pointer;
+
+      &:hover {
+        background-position: left bottom;
+        color: #fff;
+      }
+    }
+  }
+
+  .banner__img {
+    width: 100%;
+    overflow: hidden;
+
+    img {
+      display: block;
+    }
+  }
+}
