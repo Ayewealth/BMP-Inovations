@@ -45,6 +45,11 @@ img {
   margin-right: var(--vw-6);
 }
 
+.small__container {
+  margin-left: var(--vw-6);
+  margin-right: var(--vw-6);
+}
+
 .grid {
   display: grid;
   gap: 1.5rem;
@@ -52,11 +57,11 @@ img {
 
 /*==================== REUSABLE CSS CLASSES ====================*/
 .section {
-  padding: var(--mb-6) 0 var(--mb-6);
+  padding: var(--mb-6) 0 var(--mb-3);
   width: 100%;
 }
 .small__section {
-  padding: 4rem 0 4rem;
+  padding: var(--mb-4) 0 var(--mb-4);
 }
 
 .section__title {
@@ -116,7 +121,17 @@ img {
 
 @media screen and (max-width: 426px) {
   .container {
-    margin-left: var(--mb-4);
-    margin-right: var(--mb-4);
+    margin-left: var(--mb-1);
+    margin-right: var(--mb-1);
+  }
+  .small__container {
+    margin-right: var(--mb-0-5);
+    margin-left: var(--mb-0-5);
+  }
+}
+@media screen and (min-width: 427px) and (max-width: 769px) {
+  .container {
+    margin-left: var(--mb-2);
+    margin-right: var(--mb-2);
   }
 }

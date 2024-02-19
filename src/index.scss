@@ -20,11 +20,13 @@
   --body-color: hsl(var(--hue-color), 60%, 99%);
   --font-color: hsl(var(--hue-color), 60%, 100%);
   --black-font-color: hsl(var(--hue-color), 60%, 0%);
+  --white-font-color: hsl(var(--hue-color), 60%, 100%);
   --container-color: #fff;
   --scroll-bar-color: hsl(var(--hue-color), 12%, 90%);
   --scroll-thumb-color: hsl(var(--hue-color), 12%, 80%);
   --floating-button-color: hsl(var(--hue-color), 28%, 12%);
   --border-color: #efecec;
+  --background-color: hsl(var(--hue-color), 28%, 12%);
 
   /*========== Font and typography ==========*/
   --body-font: "Poppins", sans-serif;
@@ -52,6 +54,7 @@
   --mb-2: 2rem;
   --mb-2-5: 2.5rem;
   --mb-3: 3rem;
+  --mb-4: 4rem;
   --mb-6: 6rem;
   --vw-8: 8vw;
   --vw-6: 6vw;
@@ -86,9 +89,11 @@
   --body-color: hsl(var(--hue-color), 28%, 12%);
   --font-color: hsl(var(--hue-color), 60%, 0%);
   --black-font-color: hsl(var(--hue-color), 60%, 100%);
+  --white-font-color: hsl(var(--hue-color), 60%, 0%);
   --container-color: hsl(var(--hue-color), 29%, 16%);
   --scroll-bar-color: hsl(var(--hue-color), 12%, 48%);
   --scroll-thumb-color: hsl(var(--hue-color), 12%, 36%);
   --floating-button-color: hsl(var(--hue-color), 60%, 99%);
   --border-color: #858585;
+  --background-color: hsl(var(--hue-color), 60%, 99%);
 }

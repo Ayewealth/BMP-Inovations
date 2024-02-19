@@ -1,4 +1,5 @@
 import { Typewriter } from "react-simple-typewriter"
+import TrustedBy from "../common/TrustedBy"
 
 const HomeBanner = () => {
     return (
@@ -7,7 +8,7 @@ const HomeBanner = () => {
                 <div className="banner__container">
                     <div className='banner__contents'>
                         <h3>DO IT BETTER TODAY</h3>
-                        <h2>Let's Grow Your <Typewriter words={["Idea", "Brand", "Business"]} loop={true} typeSpeed={80} /></h2>
+                        <h2>Let's Grow Your <Typewriter words={["Ideas", "Brands", "Business"]} loop={true} typeSpeed={80} /></h2>
                         <p>
                             Elevate your brand's digital presence with our comprehensive software solutions. From web and app development to logo design and captivating animations, we offer a full spectrum of services. Seamlessly integrating technology, we enhance efficiency and amplify your brand in the digital landscape.
                         </p>
@@ -17,6 +18,7 @@ const HomeBanner = () => {
                         <img src="/images/head new.png" alt="" />
                     </div>
                 </div>
+                <TrustedBy />
             </div>
         </div>
     )

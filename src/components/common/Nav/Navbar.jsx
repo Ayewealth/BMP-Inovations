@@ -40,7 +40,7 @@ const Navbar = () => {
 
     return (
         <header className={`header ${isScrollHeader ? 'scroll-header' : ''}`}>
-            <nav className='nav container'>
+            <nav className='nav small__container'>
                 <div className="nav__toggle" onClick={toggleShowMenu}>
                     <Menu />
                 </div>
@@ -77,7 +77,11 @@ const Navbar = () => {
                                 <button onClick={logoutUser}>Logout</button>
                                 {user &&
                                     <div>
-                                        <p>{user.name}</p>
+                                        {user.profile_pic ? (
+                                            <img src={user.profile_pic} alt='' />
+                                        ) : (
+                                            <img src={theme === "light" ? "/images/Vector.png" : "/images/Vector 2.png"} alt="" />
+                                        )}
                                     </div>
                                 }
                             </div>
