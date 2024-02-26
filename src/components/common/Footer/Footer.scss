@@ -402,11 +402,12 @@
               }
               #store-name {
                 color: hsl(var(--hue-color), 8%, 75%);
+                font-size: 10px;
               }
               #num {
                 color: #fff;
                 font-weight: 600;
-                font-size: 12px;
+                font-size: 10px;
               }
             }
           }
