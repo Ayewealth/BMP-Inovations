@@ -67,15 +67,15 @@ const Footer = () => {
                                 <Link className="store">
                                     <FaApple />
                                     <div>
-                                        <p id="store-name">Download on the</p>
-                                        <p id="num">APPLE STORE</p>
+                                        <p id="store-name">Apple Store</p>
+                                        <p id="num">Comming soon</p>
                                     </div>
                                 </Link>
                                 <Link className="store">
                                     <BiLogoPlayStore />
                                     <div>
-                                        <p id="store-name">Download on the</p>
-                                        <p id="num">GOOGLE PLAY STORE</p>
+                                        <p id="store-name">Google Play Store</p>
+                                        <p id="num">Comming soon</p>
                                     </div>
                                 </Link>
                             </div>

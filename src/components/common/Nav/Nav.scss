@@ -211,6 +211,9 @@
 }
 
 @media screen and (max-width: 322px) {
+  .nav {
+    padding: 0 0.5rem;
+  }
   .nav__icon,
   .nav__close,
   .nav__toggle {
@@ -236,6 +239,10 @@
   }
   .nav__logo {
     height: 100%;
+
+    img {
+      width: 60px;
+    }
   }
   .nav__list {
     flex-direction: column;
@@ -266,15 +273,19 @@
     width: 100%;
   }
   .cart {
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: var(--title-color);
     margin-right: var(--mb-0-5);
     cursor: pointer;
     transition: 0.3s;
   }
+  #sign-in {
+    font-size: 13px;
+  }
   #reg-btn {
-    padding: 1rem 1.2rem;
+    padding: 0.7rem 0.8rem;
     border: none;
+    font-size: 12px;
     background-color: var(--first-color);
     border-radius: 5px;
     cursor: pointer;
@@ -284,6 +295,9 @@
 }
 
 @media screen and (min-width: 323px) and (max-width: 376px) {
+  .nav {
+    padding: 0 0.5rem;
+  }
   .nav__icon,
   .nav__close,
   .nav__toggle {
@@ -307,7 +321,14 @@
     border: 1px solid var(--first-color-lighter);
     transition: 0.3s ease;
   }
-  .nav__list {
+  .nav__logo {
+    height: 100%;
+
+    img {
+      width: 70px;
+    }
+  }
+  .na .nav__list {
     flex-direction: column;
 
     padding-top: 3rem;
@@ -335,9 +356,20 @@
     font-weight: var(--font-semi-bold);
     width: 100%;
   }
+  .cart {
+    font-size: 1rem;
+    color: var(--title-color);
+    margin-right: var(--mb-0-5);
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  #sign-in {
+    font-size: 13px;
+  }
   #reg-btn {
-    padding: 1rem 1.2rem;
+    padding: 0.7rem 1rem;
     border: none;
+    font-size: 12px;
     background-color: var(--first-color);
     border-radius: 5px;
     cursor: pointer;

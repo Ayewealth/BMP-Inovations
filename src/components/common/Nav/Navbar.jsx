@@ -90,7 +90,7 @@ const Navbar = () => {
                             <div className='nav__auth'>
                                 <Link to="/"><ShoppingCart className='cart' size={18} /> </Link>
 
-                                <Link to="/login">Signin</Link>
+                                <Link id='sign-in' to="/login">Signin</Link>
                                 <Link id='reg-btn' to="/register">Register</Link>
                             </div>
                         )}
