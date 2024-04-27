@@ -103,7 +103,7 @@
     }
 
     &:hover {
-      background-color: var(--first-color);
+      background-color: hsl(224, 22%, 14%);
 
       svg {
         color: #fff;
@@ -114,15 +114,19 @@
 @media screen and (max-width: 322px) {
   .testimonials__head {
     text-align: center;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
 
     h2 {
-      font-size: 30px;
+      font-size: 1.5rem;
       color: var(--title-color);
+    }
+    p {
+      font-size: 0.8rem;
     }
   }
   .testimonial__item {
     gap: 0.5rem;
+    padding: 1rem;
 
     img {
       align-self: center;
@@ -141,7 +145,7 @@
     align-items: flex-start;
 
     p {
-      font-size: 0.8rem;
+      font-size: 0.7rem;
       line-height: 1.3rem;
       color: #000;
       font-family: var(--font-base);
@@ -161,6 +165,17 @@
   }
 }
 @media screen and (min-width: 323px) and (max-width: 376px) {
+  .testimonials__head {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  .testimonials__head h2 {
+    font-size: 1.5rem;
+    color: var(--title-color);
+  }
+  .testimonials__head p {
+    font-size: 0.85rem;
+  }
   .testimonial__item {
     gap: 0.5rem;
 
@@ -201,6 +216,17 @@
   }
 }
 @media screen and (min-width: 377px) and (max-width: 426px) {
+  .testimonials__head {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  .testimonials__head h2 {
+    font-size: 2rem;
+    color: var(--title-color);
+  }
+  .testimonials__head p {
+    font-size: 0.8rem;
+  }
   .testimonial__item {
     gap: 0.5rem;
 
@@ -254,7 +280,7 @@
     align-items: flex-start;
 
     p {
-      font-size: 1rem;
+      font-size: 0.8rem;
       line-height: 1.5rem;
       color: #000;
       font-family: var(--font-base);
@@ -275,6 +301,11 @@
 }
 @media screen and (min-width: 769px) and (max-width: 1024px) {
   .testimonial__item {
-    width: 100%;
+    width: 90%;
+  }
+  .testimonial__content p {
+    font-size: 1rem;
+    line-height: 2rem;
+    color: #000;
   }
 }

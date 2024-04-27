@@ -51,6 +51,11 @@ img {
   margin-right: var(--vw-6);
 }
 
+.smaller__container {
+  margin-right: var(--vw-4);
+  margin-left: var(--vw-4);
+}
+
 .grid {
   display: grid;
   gap: 1.5rem;
@@ -140,5 +145,12 @@ img {
   .container {
     margin-left: var(--mb-2);
     margin-right: var(--mb-2);
+  }
+  .small__container {
+    margin-left: var(--mb-2);
+    margin-right: var(--mb-2);
+  }
+  .small__section {
+    padding: var(--mb-3) 0 var(--mb-3);
   }
 }

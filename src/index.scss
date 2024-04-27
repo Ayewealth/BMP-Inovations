@@ -27,6 +27,7 @@
   --floating-button-color: hsl(var(--hue-color), 28%, 12%);
   --border-color: #efecec;
   --background-color: hsl(var(--hue-color), 28%, 12%);
+  --brand_bg: #fff;
 
   /*========== Font and typography ==========*/
   --body-font: "Poppins", sans-serif;
@@ -96,4 +97,5 @@
   --floating-button-color: hsl(var(--hue-color), 60%, 99%);
   --border-color: #858585;
   --background-color: hsl(var(--hue-color), 60%, 99%);
+  --brand_bg: hsl(224, 22%, 14%);
 }

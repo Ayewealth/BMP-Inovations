@@ -2,7 +2,7 @@ import React from 'react'
 
 const OurService = () => {
     return (
-        <div className='small__section bg'>
+        <div className='small__section'>
             <div className="container">
                 <div className='home__service-head'>
                     <h1>Our Services</h1>
@@ -24,10 +24,10 @@ const OurService = () => {
                         </p>
                     </div>
                     <div>
-                        <img src="/images/content creation.jpg" alt="" />
-                        <h2>Content Creation and Social Media Management</h2>
+                        <img src="/images/automation.jpg" alt="" />
+                        <h2>Automation</h2>
                         <p>
-                            Creating engaging content in various forms and managing social media presence to connect with your audience.
+                            Enhancing efficiency by automating repetitive tasks and optimizing workflows with cutting-edge technology.
                         </p>
                     </div>
                     <div>
@@ -38,12 +38,13 @@ const OurService = () => {
                         </p>
                     </div>
                     <div>
-                        <img src="/images/automation.jpg" alt="" />
-                        <h2>Automation</h2>
+                        <img src="/images/content creation.jpg" alt="" />
+                        <h2>Content Creation and Social Media Management</h2>
                         <p>
-                            Enhancing efficiency by automating repetitive tasks and optimizing workflows with cutting-edge technology.
+                            Creating engaging content in various forms and managing social media presence to connect with your audience.
                         </p>
                     </div>
+
                 </div>
             </div>
         </div>

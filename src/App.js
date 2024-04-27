@@ -18,10 +18,12 @@ function App() {
             <Routes>
               <Route path="/register" element={<SignUp />} />
               <Route path="/login" element={<Signin />} />
+
               <Route path="/" element={<Home />} />
               <Route path="/about" element={<About />} />
+
               <Route element={<PrivateRoute />}>
-                <Route />
+                <Route path="/dashboard" element />
               </Route>
             </Routes>
             <FloatingButton />

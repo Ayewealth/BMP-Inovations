@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { motion } from "framer-motion"
-import { AiFillEye, AiFillGithub } from 'react-icons/ai'
+import { AiFillEye } from 'react-icons/ai'
 
 import dummyProducts from '../../utils/products'
 
