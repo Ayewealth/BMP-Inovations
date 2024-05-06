@@ -1,4 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
 import "./App.scss";
 import Home from "./pages/Home";
 import About from "./pages/About";
@@ -8,6 +9,9 @@ import SignUp from "./pages/SignUp";
 import Signin from "./pages/Signin";
 import { AuthProvider } from "./context/AuthContext";
 import PrivateRoute from "./utils/PrivateRoute";
+import Service from "./pages/Service";
+import Gallery from "./pages/Gallery";
+import Blog from "./pages/Blog";
 
 function App() {
   return (
@@ -21,6 +25,9 @@ function App() {
 
               <Route path="/" element={<Home />} />
               <Route path="/about" element={<About />} />
+              <Route path="/service" element={<Service />} />
+              <Route path="/gallery" element={<Gallery />} />
+              <Route path="/blog" element={<Blog />} />
 
               <Route element={<PrivateRoute />}>
                 <Route path="/dashboard" element />

@@ -16,7 +16,6 @@ export const AuthProvider = ({ children }) => {
       ? jwtDecode(localStorage.getItem("authTokens"))
       : null
   );
-  const [loading, setLoading] = useState(true);
   const [loginMsg, setLoginMsg] = useState("");
 
   const navigate = useNavigate();
@@ -100,16 +99,9 @@ export const AuthProvider = ({ children }) => {
     } else {
       logoutUser();
     }
-
-    if (loading) {
-      setLoading(false);
-    }
   };
 
   useEffect(() => {
-    if (loading) {
-      updateToken();
-    }
     const mins = 1000 * 60 * 4;
     const interval = setInterval(() => {
       if (authTokens) {
@@ -117,7 +109,7 @@ export const AuthProvider = ({ children }) => {
       }
     }, mins);
     return () => clearInterval(interval);
-  }, [authTokens, loading]);
+  }, [authTokens]);
 
   return (
     <AuthContext.Provider
@@ -130,7 +122,7 @@ export const AuthProvider = ({ children }) => {
         loginMsg,
       }}
     >
-      {loading ? null : children}
+      {children}
     </AuthContext.Provider>
   );
 };
