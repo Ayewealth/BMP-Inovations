@@ -9,12 +9,16 @@ const HomeBlog = () => {
         <div className='small__section'>
             <div className='container'>
                 <div className='home__blog'>
-                    <div className='home__blog-head'>
+                    <div className='home__blog-head' data-aos="fade-up" ata-aos-delay="50"
+                        data-aos-duration="1000"
+                        data-aos-easing="ease-in-out">
                         <p>EXPLORE OUR THOUGHTS</p>
                         <h2>The Innovation Diaries</h2>
                     </div>
                     <div className='home__blogs'>
-                        <div className='home__blog-post'>
+                        <div className='home__blog-post' data-aos="fade-up" ata-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-easing="ease-in-out">
                             <div className='home__blog-post-img'>
                                 <img src="/images/blog-img1.jpg" alt="" />
                                 <div>
@@ -33,7 +37,9 @@ const HomeBlog = () => {
                             <Link id='read__more'>Read More <MoveUpRight /></Link>
                         </div>
 
-                        <div className='home__blog-post'>
+                        <div className='home__blog-post' data-aos="fade-up" ata-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-easing="ease-in-out">
                             <div className='home__blog-post-img'>
                                 <img src="/images/blog-img3.jpg" alt="" />
                                 <div>
@@ -52,7 +58,9 @@ const HomeBlog = () => {
                             <Link id='read__more'>Read More <MoveUpRight /></Link>
                         </div>
 
-                        <div className='home__blog-post'>
+                        <div className='home__blog-post' data-aos="fade-up" ata-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-easing="ease-in-out">
                             <div className='home__blog-post-img'>
                                 <img src="/images/blog-img4.jpg" alt="" />
                                 <div>

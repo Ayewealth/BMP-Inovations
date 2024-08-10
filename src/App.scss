@@ -141,7 +141,30 @@ img {
     margin-left: var(--mb-0-5);
   }
 }
+@media screen and (min-width: 323px) and (max-width: 376px) {
+  .small__section {
+    padding: var(--mb-2) 0 var(--mb-2);
+  }
+}
+@media screen and (min-width: 377px) and (max-width: 426px) {
+  .small__section {
+    padding: var(--mb-3) 0 var(--mb-3);
+  }
+}
 @media screen and (min-width: 427px) and (max-width: 769px) {
+  .container {
+    margin-left: var(--mb-2);
+    margin-right: var(--mb-2);
+  }
+  .small__container {
+    margin-left: var(--mb-2);
+    margin-right: var(--mb-2);
+  }
+  .small__section {
+    padding: var(--mb-3) 0 var(--mb-3);
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
   .container {
     margin-left: var(--mb-2);
     margin-right: var(--mb-2);

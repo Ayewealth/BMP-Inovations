@@ -5,12 +5,16 @@ const Package = () => {
         <div className='small__section'>
             <div className="container">
                 <div className="package__container">
-                    <div className='package__head'>
+                    <div className='package__head' data-aos="fade-up" ata-aos-delay="50"
+                        data-aos-duration="1000"
+                        data-aos-easing="ease-in-out">
                         <h2>Explore Our Exciting Range Of Tailored Packages</h2>
                         <p>We offer the perfect packages to supercharge your growth and elevate your brand or business to the next level.</p>
                     </div>
                     <div className='packages'>
-                        <div className='package'>
+                        <div className='package' data-aos="fade-up" ata-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-easing="ease-in-out">
                             <div className='package__head-text'>
                                 <h2>Stater</h2>
                                 <span>$50</span>
@@ -33,7 +37,9 @@ const Package = () => {
                             </div>
                         </div>
 
-                        <div className='package'>
+                        <div className='package' data-aos="fade-up" ata-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-easing="ease-in-out">
                             <div className='package__head-text'>
                                 <h2>Bronze</h2>
                                 <span>$100</span>
@@ -56,7 +62,9 @@ const Package = () => {
                             </div>
                         </div>
 
-                        <div className='package'>
+                        <div className='package' data-aos="fade-up" ata-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-easing="ease-in-out">
                             <div className='package__head-text'>
                                 <h2>Silver</h2>
                                 <span>$300</span>
@@ -79,7 +87,9 @@ const Package = () => {
                             </div>
                         </div>
 
-                        <div className='package'>
+                        <div className='package' data-aos="fade-up" ata-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-easing="ease-in-out">
                             <div className='package__head-text'>
                                 <h2>Gold</h2>
                                 <span>
@@ -108,7 +118,9 @@ const Package = () => {
                             </div>
                         </div>
 
-                        <div className='package'>
+                        <div className='package' data-aos="fade-up" ata-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-easing="ease-in-out">
                             <div className='package__head-text'>
                                 <h2>Platinum</h2>
                                 <span>
@@ -137,7 +149,9 @@ const Package = () => {
                             </div>
                         </div>
 
-                        <div className='package'>
+                        <div className='package' data-aos="fade-up" ata-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-easing="ease-in-out">
                             <div className='package__head-text'>
                                 <h2>Diamond</h2>
                                 <span>

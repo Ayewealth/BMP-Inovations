@@ -2,7 +2,10 @@ import React from 'react'
 
 const Achievement = () => {
     return (
-        <div className='achievements'>
+        <div className='achievements' data-aos="fade-up"
+            ata-aos-delay="50"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out">
             <div>
                 <h2>4</h2>
                 <p>Project Completed</p>

@@ -60,7 +60,7 @@ const Navbar = () => {
                             <Link className='nav__link' to="/service">Services</Link>
                         </li>
                         <li>
-                            <Link className='nav__link' to="/gallery">Gallery</Link>
+                            <Link className='nav__link' to="/gallery">Porfolio</Link>
                         </li>
                         <li>
                             <Link className='nav__link' to="/blog">Blog</Link>
@@ -72,7 +72,9 @@ const Navbar = () => {
                         {/* <Link to="/cart"><ShoppingCart className='cart' /> </Link> */}
                         {user ? (
                             <div className='user'>
-                                <Link to="/"><ShoppingCart className='cart' size={18} /> </Link>
+                                <Link to="/cart">
+                                    <ShoppingCart className='cart' size={18} />
+                                </Link>
 
                                 <button onClick={logoutUser}>Logout</button>
                                 {user &&
@@ -88,7 +90,7 @@ const Navbar = () => {
                         ) : (
 
                             <div className='nav__auth'>
-                                <Link to="/"><ShoppingCart className='cart' size={18} /> </Link>
+                                <Link to="/cart"><ShoppingCart className='cart' size={18} /> </Link>
 
                                 <Link id='sign-in' to="/login">Signin</Link>
                                 <Link id='reg-btn' to="/register">Register</Link>

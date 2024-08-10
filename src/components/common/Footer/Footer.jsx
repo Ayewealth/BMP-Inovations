@@ -1,15 +1,18 @@
-import { FaTwitter, FaFacebookF, FaInstagram, FaApple } from "react-icons/fa";
+import { FaInstagram, FaApple, FaFacebook, FaLinkedin } from "react-icons/fa";
 import { BiLogoPlayStore } from "react-icons/bi";
 
 import "./Footer.scss"
 import logo from "../../../assets/Group 659.png"
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import { FaXTwitter } from "react-icons/fa6";
 
 const Footer = () => {
     const [email, setEmail] = useState()
     return (
-        <div className='small__section bg2'>
+        <div className='small__section bg2' data-aos="fade-up" ata-aos-delay="50"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out">
             <div className="container">
                 <div className="footer">
                     <div className="footer__top">
@@ -17,9 +20,26 @@ const Footer = () => {
                         <div>
                             <p>Follow us</p>
                             <ul>
-                                <li><FaTwitter /></li>
-                                <li><FaFacebookF /></li>
-                                <li><FaInstagram /></li>
+                                <li>
+                                    <Link to="https://x.com/BmpInovati51862" target='_blank'>
+                                        <FaXTwitter />
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link to="https://web.facebook.com/p/BMP-Inovations-61557111026850/?_rdc=1&_rdr" target='_blank'>
+                                        <FaFacebook />
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link to="https://www.instagram.com/bmpinovations/" target='_blank'>
+                                        <FaInstagram />
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link to="https://www.linkedin.com/company/bmp-inovations" target='_blank'>
+                                        <FaLinkedin />
+                                    </Link>
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -45,9 +65,21 @@ const Footer = () => {
                             <div>
                                 <h3>Company</h3>
                                 <ul>
-                                    <li>About</li>
-                                    <li>Contact</li>
-                                    <li>Signup</li>
+                                    <li>
+                                        <Link to="/about">
+                                            About
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link to="/contact">
+                                            Contact
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link to="/register">
+                                            Signup
+                                        </Link>
+                                    </li>
                                 </ul>
                             </div>
                         </div>

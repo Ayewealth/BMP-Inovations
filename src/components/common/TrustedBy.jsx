@@ -5,7 +5,9 @@ import { useTheme } from "../../context/ThemeContext"
 const TrustedBy = () => {
     const { theme } = useTheme()
     return (
-        <div className='trustedby'>
+        <div className='trustedby' data-aos="fade-up" ata-aos-delay="50"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out">
             <h3>Trusted by the most innovative companies</h3>
             <div>
                 <svg width="100%" height="25" viewBox="0 0 85 25" fill="none" xmlns="http://www.w3.org/2000/svg">

@@ -33,12 +33,16 @@ const OurProducts = () => {
     return (
         <div className='small__section'>
             <div className='container'>
-                <div className='ourproducts__head'>
+                <div className='ourproducts__head' data-aos="fade-up" ata-aos-delay="50"
+                    data-aos-duration="1000"
+                    data-aos-easing="ease-in-out">
                     <h1>Our <span>Products</span></h1>
                     <p></p>
                 </div>
                 <div className='home__products'>
-                    <div className='home__products-filter'>
+                    <div className='home__products-filter' data-aos="fade-up" ata-aos-delay="50"
+                        data-aos-duration="1000"
+                        data-aos-easing="ease-in-out">
                         {['All', 'Web', "Mobile"].map((item, index) => (
                             <div
                                 key={index}
@@ -57,7 +61,9 @@ const OurProducts = () => {
                         className='app__work-portfolio'
                     >
                         {filterProduct.map((product, index) => (
-                            <div key={index} className='app__work-item app__flex'>
+                            <div key={index} className='app__work-item app__flex' data-aos="fade-up" ata-aos-delay="50"
+                                data-aos-duration="1000"
+                                data-aos-easing="ease-in-out">
                                 <div className='app__work-img app__flex'>
                                     <img src={product.img} alt="" />
                                     <motion.div

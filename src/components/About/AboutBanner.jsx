@@ -8,7 +8,12 @@ const AboutBanner = () => {
         <div className='section'>
             <div className="container">
                 <div className='about__banner-container'>
-                    <div className='about__banner-content'>
+                    <div className='about__banner-content'
+                        data-aos="fade-down-right"
+                        data-aos-delay="50"
+                        data-aos-duration="1000"
+                        data-aos-easing="ease-in-out"
+                    >
                         <div className='about__banner-content-header'>
                             <span>About Our Company</span>
                         </div>
@@ -33,7 +38,12 @@ const AboutBanner = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='about__banner-img'>
+                    <div className='about__banner-img'
+                        data-aos="fade-down-left"
+                        data-aos-delay="50"
+                        data-aos-duration="1000"
+                        data-aos-easing="ease-in-out"
+                    >
                         <img src='/images/about7.jpg' alt="" />
                     </div>
                 </div>

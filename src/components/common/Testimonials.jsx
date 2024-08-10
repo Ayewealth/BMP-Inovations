@@ -26,11 +26,15 @@ const Testimonials = () => {
     return (
         <div className='small__section'>
             <div className='container'>
-                <div className='testimonials__head'>
+                <div className='testimonials__head' data-aos="fade-up" ata-aos-delay="50"
+                    data-aos-duration="1000"
+                    data-aos-easing="ease-in-out">
                     <h2>Our Client's Speak</h2>
                     <p>Don't take our word for it listen to what our client have to say</p>
                 </div>
-                <div className='testimonial app__flex'>
+                <div className='testimonial app__flex' data-aos="fade-up" ata-aos-delay="50"
+                    data-aos-duration="1000"
+                    data-aos-easing="ease-in-out">
                     <motion.div
                         className='testimonial__item'
                         key={test.id}

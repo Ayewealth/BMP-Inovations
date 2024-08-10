@@ -1,14 +1,22 @@
 import { Link } from "react-router-dom";
 import { FcGoogle } from "react-icons/fc";
-
-import AuthContext from '../../context/AuthContext'
+import AuthContext from '../../context/AuthContext';
 import { useContext } from "react";
+
 const SigninForm = () => {
-    const { loginUser } = useContext(AuthContext)
+    const { loginUser } = useContext(AuthContext);
+
     return (
         <div className="form__div">
             <div className="form__img">
-                <img src="/images/signup1.jpg" alt="" />
+                <video
+                    muted
+                    autoPlay
+                    loop
+                    src="https://cdn.dribbble.com/users/8779526/screenshots/16963725/media/e7f7f6d0372b9c6d9bda7ca43b3164f6.mp4"
+                >
+                    Your browser does not support the video tag.
+                </video>
             </div>
             <div className="right">
                 <div className="right__inner">
@@ -29,7 +37,7 @@ const SigninForm = () => {
                 </div>
             </div>
         </div>
-    )
-}
+    );
+};
 
-export default SigninForm
+export default SigninForm;

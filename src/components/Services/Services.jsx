@@ -5,10 +5,20 @@ const Services = () => {
         <div className='small__section'>
             <div className="container">
                 <div className="services__container">
-                    <div className="services__head">
+                    <div className="services__head"
+                        data-aos="fade-up"
+                        ata-aos-delay="50"
+                        data-aos-duration="1000"
+                        data-aos-easing="ease-in-out"
+                    >
                         <h1>Our Services</h1>
                     </div>
-                    <div className='services__content'>
+                    <div className='services__content'
+                        data-aos="fade-up"
+                        ata-aos-delay="50"
+                        data-aos-duration="1000"
+                        data-aos-easing="ease-in-out"
+                    >
                         <div className='services__inner'>
                             <div>
                                 <img src="/images/software_icon.png" alt="" />

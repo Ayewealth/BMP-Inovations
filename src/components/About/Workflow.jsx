@@ -5,7 +5,10 @@ const Workflow = () => {
         <div className='small__section bg'>
             <div className="container">
                 <div className="workflow_container">
-                    <div className="workflow_container-head">
+                    <div className="workflow_container-head" data-aos="fade-up"
+                        ata-aos-delay="50"
+                        data-aos-duration="1000"
+                        data-aos-easing="ease-in-out">
                         <div className='workflow_container-head-left'>
                             <div className='workflow_title'>
                                 <span>Workflow</span>
@@ -18,7 +21,10 @@ const Workflow = () => {
                     </div>
 
                     <div className='workflow_content'>
-                        <div className='workflow'>
+                        <div className='workflow' data-aos="fade-up"
+                            ata-aos-delay="70"
+                            data-aos-duration="1000"
+                            data-aos-easing="ease-in-out">
                             <div className='workflow_top'>
                                 <p>Simple Creative Design</p>
                             </div>
@@ -30,7 +36,10 @@ const Workflow = () => {
                             </div>
                         </div>
 
-                        <div className='workflow'>
+                        <div className='workflow' data-aos="fade-up"
+                            ata-aos-delay="80"
+                            data-aos-duration="1000"
+                            data-aos-easing="ease-in-out">
                             <div className='workflow_top'>
                                 <p>Understanding Client's Needs</p>
                             </div>
@@ -42,7 +51,10 @@ const Workflow = () => {
                             </div>
                         </div>
 
-                        <div className='workflow'>
+                        <div className='workflow' data-aos="fade-up"
+                            ata-aos-delay="90"
+                            data-aos-duration="1000"
+                            data-aos-easing="ease-in-out">
                             <div className='workflow_top'>
                                 <p>Create A Project Plan</p>
                             </div>
@@ -54,7 +66,10 @@ const Workflow = () => {
                             </div>
                         </div>
 
-                        <div className='workflow'>
+                        <div className='workflow' data-aos="fade-up"
+                            ata-aos-delay="100"
+                            data-aos-duration="1000"
+                            data-aos-easing="ease-in-out">
                             <div className='workflow_top'>
                                 <p>Launching The Project</p>
                             </div>

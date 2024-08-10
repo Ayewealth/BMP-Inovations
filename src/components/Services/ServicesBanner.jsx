@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import { FaRegCheckCircle } from "react-icons/fa";
 
 
@@ -8,7 +7,12 @@ const ServicesBanner = () => {
         <div className='section'>
             <div className="container">
                 <div className="service__banner-container">
-                    <div className="service__banner-content">
+                    <div className="service__banner-content"
+                        data-aos="fade-down-right"
+                        data-aos-delay="50"
+                        data-aos-duration="1000"
+                        data-aos-easing="ease-in-out"
+                    >
                         <div className='service__banner-content-header'>
                             <span>Our Service</span>
                         </div>
@@ -28,7 +32,12 @@ const ServicesBanner = () => {
                             </a>
                         </div>
                     </div>
-                    <div className="service__banner-img">
+                    <div className="service__banner-img"
+                        data-aos="fade-down-left"
+                        data-aos-delay="50"
+                        data-aos-duration="1000"
+                        data-aos-easing="ease-in-out"
+                    >
                         <img src="/images/service.jpg" alt="" />
                     </div>
                 </div>

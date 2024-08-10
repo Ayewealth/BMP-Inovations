@@ -154,7 +154,7 @@
 
   padding: 2rem 3rem 0 2rem;
   border-radius: 20px;
-  background-color: #fff;
+  background-color: var(--brand_bg);
   box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
   width: 100%;
 
@@ -428,7 +428,7 @@
       gap: 0.5rem;
 
       padding: 1rem 1rem 1.5rem 1rem;
-      background-color: #fff;
+      background-color: var(--brand_bg);
       border-radius: 10px;
       cursor: pointer;
 
@@ -441,7 +441,7 @@
       p {
         font-weight: 600;
         font-size: 1.1rem;
-        color: #000;
+        color: var(--black-font-color);
       }
       span {
         font-weight: 500;
