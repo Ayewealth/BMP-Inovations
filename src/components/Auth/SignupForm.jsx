@@ -12,7 +12,7 @@ const SignupForm = () => {
                     muted
                     autoPlay
                     loop
-                    src="https://cdn.dribbble.com/users/8779526/screenshots/16963725/media/e7f7f6d0372b9c6d9bda7ca43b3164f6.mp4"
+                    src="/images/Final-Shot-5.mp4"
                 >
                     Your browser does not support the video tag.
                 </video>

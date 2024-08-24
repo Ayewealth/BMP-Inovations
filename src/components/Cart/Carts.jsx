@@ -9,8 +9,8 @@ const Carts = () => {
             <div className="container">
                 <div className="cart__container">
                     <div className='cart__items'
-                        data-aos="fade-right"
-                        ata-aos-delay="50"
+                        data-aos="fade-up"
+                        data-aos-delay="50"
                         data-aos-duration="1000"
                         data-aos-easing="ease-in-out"
                     >
@@ -107,8 +107,8 @@ const Carts = () => {
                         </div>
                     </div>
                     <div className='cart__checkout'
-                        data-aos="fade-left"
-                        ata-aos-delay="50"
+                        data-aos="fade-up"
+                        data-aos-delay="50"
                         data-aos-duration="1000"
                         data-aos-easing="ease-in-out"
                     >

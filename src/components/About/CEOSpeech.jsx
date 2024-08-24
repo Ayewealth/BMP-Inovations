@@ -15,11 +15,11 @@ const CEOSpeech = () => {
                         ata-aos-delay="50"
                         data-aos-duration="1000"
                         data-aos-easing="ease-in-out">
-                        <img src="/images/ceo.png" alt="ceo_picture" data-aos="fade-right"
+                        <img src="/images/ceo.png" alt="ceo_picture" data-aos="fade-up"
                             ata-aos-delay="50"
                             data-aos-duration="1000"
                             data-aos-easing="ease-in-out" />
-                        <div className='ceospeech' data-aos="fade-left"
+                        <div className='ceospeech' data-aos="fade-up"
                             ata-aos-delay="50"
                             data-aos-duration="1000"
                             data-aos-easing="ease-in-out">

@@ -38,13 +38,13 @@ const AboutBanner = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='about__banner-img'
-                        data-aos="fade-down-left"
-                        data-aos-delay="50"
-                        data-aos-duration="1000"
-                        data-aos-easing="ease-in-out"
-                    >
-                        <img src='/images/about7.jpg' alt="" />
+                    <div className='about__banner-img'>
+                        <img src='/images/about7.jpg' alt=""
+                            data-aos="fade-down-left"
+                            data-aos-delay="50"
+                            data-aos-duration="1000"
+                            data-aos-easing="ease-in-out"
+                        />
                     </div>
                 </div>
 

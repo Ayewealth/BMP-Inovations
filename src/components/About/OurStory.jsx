@@ -5,7 +5,7 @@ const OurStory = () => {
         <div className='small__section'>
             <div className="container">
                 <div className="about_story-container">
-                    <div className="about_story-left" data-aos="fade-right"
+                    <div className="about_story-left" data-aos="fade-up"
                         ata-aos-delay="50"
                         data-aos-duration="1000"
                         data-aos-easing="ease-in-out">
@@ -17,7 +17,7 @@ const OurStory = () => {
                             At BMP Inovations, our journey is one fueled by a passion for revolutionizing the digital landscape. Founded by a dynamic team of visionaries, we embarked on a mission to empower businesses with cutting-edge solutions.
                         </p>
                     </div>
-                    <div className="about_story-right" data-aos="fade-left"
+                    <div className="about_story-right" data-aos="fade-up"
                         ata-aos-delay="50"
                         data-aos-duration="1000"
                         data-aos-easing="ease-in-out">
